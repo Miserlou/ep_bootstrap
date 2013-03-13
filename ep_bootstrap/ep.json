@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "name": "main",
+      "hooks": {
+        "eejsBlock_editbarMenuLeft": "ep_bootstrap/editbarMenuLeft",
+        "eejsBlock_styles": "ep_bootstrap/styles",
+        "eejsBlock_scripts": "ep_bootstrap/scripts"
+      },
+      "client_hooks": {
+      }
+    }
+  ]
+}

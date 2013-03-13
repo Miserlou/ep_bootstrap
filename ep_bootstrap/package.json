@@ -1,0 +1,9 @@
+{
+  "name": "ep_bootstrap",
+  "version": "0.0.1",
+  "description": "Better Bootstrap Integration for Etherpad Lite",
+  "author": "Miserlou (Rich Jones) <rich@openwatch.net>",
+  "contributors": [],
+  "dependencies": {},
+  "engines": { "node": ">= 0.6.0"}
+}
