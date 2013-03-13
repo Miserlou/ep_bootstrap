@@ -9,10 +9,11 @@ var eejs = require("ep_etherpad-lite/node/eejs");
 //
 exports.eejsBlock_editbarMenuLeft = function(hook_name, args, cb){
 
-    args.content = '<div class="btn-group">\
-                    <a href="#" id="bold" class="btn" data-toggle="tooltip" data-placement="bottom" title="Derp" data-l10n-id="pad.toolbar.bold.title">\
+    args.content = '<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script><div class="container btn-group">\
+                    <a href="#" id="bold" rel="tooltip" data-original-title="Start a new investigation" class="btn" data-placement="bottom" data-l10n-id="pad.toolbar.bold.title">\
                       <span class="buttonicon buttonicon-bold"></span>\
                     </a>\
+                    <script type="text/javascript">$(function () { $("[rel=\'tooltip\']").tooltip(); alert("hello"); });</script>\
                     <a id="italic" data-key="italic" class="btn" data-l10n-id="pad.toolbar.italic.title">\
                       <span class="buttonicon buttonicon-italic"></span>\
                     </a>\
